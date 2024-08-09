@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #23272a;
+    font-size: 1.3em;
+    color: white;
+    font-family: "poppins", arial;
+    width: 100vw;
+    height: 100vh;
+    
+    
+
+}
+main{
+    background-color: rgba(0, 0, 0, 0.638);
+    height: 100vh;
+    width: 100vw;
+    
+}
+.Vamos-la-titulo{
+    text-align: center;
+    text-shadow: 1px -1px 0 #444444, -1px 2px 1px #505050, -2px 4px 1px #636363, -3px 6px 1px #727272;
+    
+}
+iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: none;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+.conteudo-principal{
+    padding: 3% 10%;
+}
+ 
+.cotainer-opcoes{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+ row-gap: 10px;
+ column-gap: 0px;
+ justify-content: center;
+ justify-items: center;
+ margin-top: 40px;
+}
+.imagens-opcoes{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    cursor: url("imagens/garfo.webp"), auto;
+    border: 4px solid white;
+    cursor: pointer;
+    object-fit: cover;
+}
+.imagens-opcoes:focus{
+    border: 4px solid rgb(0, 255, 30);
+}
+.errada:focus{
+    border: 4px solid red;
+}
+.pergunta{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(52, 209, 0);
+    
+    border-radius: 15px;
+    position: relative;
+}
+span.numero-pergunta{
+    margin-right: 20px;
+}
