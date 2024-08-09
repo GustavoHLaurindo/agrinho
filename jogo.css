@@ -19,6 +19,7 @@ main{
     height: 100vh;
     width: 100vw;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 
@@ -50,10 +51,10 @@ iframe{
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
  row-gap: 10px;
- column-gap: 0px;
+ column-gap: 10px;
  justify-content: center;
  justify-items: center;
- max-width: 800px;
+ max-width: 1045px;
  margin-top: 40px;
 }
 .imagens-opcoes{
