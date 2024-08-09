@@ -52,7 +52,7 @@ iframe{
  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
  row-gap: 10px;
  column-gap: 10px;
- justify-content: center;
+ justify-content: center;                       
  justify-items: center;
  max-width: 1045px;
  margin-top: 40px;
