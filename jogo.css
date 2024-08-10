@@ -74,7 +74,7 @@ iframe{
 }
 .pergunta{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 10px;
     background-color: rgb(52, 209, 0);
     
@@ -83,4 +83,19 @@ iframe{
 }
 span.numero-pergunta{
     margin-right: 20px;
+}
+@media (min-width:320px) and (max-width:480px) {
+  body{
+    font-size: 1em;
+    }
+   
+ iframe{
+    display: none;
+    
+ }
+ main{
+    height: auto;
+    display: block;
+    background-image: url(imagens/terra-bacground.jpg);
+ }
 }
